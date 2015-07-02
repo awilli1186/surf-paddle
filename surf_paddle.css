@@ -1,0 +1,128 @@
+* {
+  font-family: "Open Sans";
+}
+
+header {
+  background-image: url(header.jpg);
+  width: 92%;
+  height: 525px;
+  margin-left: 50px;
+  margin-top: -14px;
+}
+.menuBar{
+  display:inline-block;
+}
+
+.menuBar {
+  padding-left: 150px;
+}
+.menuBar > a img {
+  position: relative;
+  top: 14px;
+  left: -7px;
+  padding-right: 2px;
+
+}
+.blog {
+  display: inline-block;
+  font-size: 15px
+}
+
+}
+.menuBar > a {
+  color: #083451;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+span {
+  padding-left: 605px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span >a {
+  color:#083451;
+  text-decoration: none;
+  font-family: "Oswald";
+  padding-right: 12px
+}
+
+#title {
+  position: relative;
+  left: 194px;
+  top: 59px;
+  font-weight:lighter;
+  font-size: 98px;
+  color: white;
+}
+
+#subTitle {
+  position: relative;
+  left: 499px;
+  bottom: 23px;
+  font-size: 15px;
+  color: #083451;
+}
+
+main {
+  padding: 30px;
+  backgorund: none;
+  width: 80%;
+  float:left;
+  min-height: 100%;
+  height: 100%;
+}
+
+.articleTitle > h1 {
+  font-family: "Oswald";
+  font-size: 88px;
+  word-wrap: break-word;
+  margin-left: 67px;
+  margin-right:104px;
+  margin-bottom: 0;
+}
+
+.articleTitle > img {
+  position: relative;
+  display: inline-block;
+  width: 4%;
+  left: 68px;
+}
+
+.articleTitle {
+  background: none;
+  border: 1px solid black;
+}
+
+#fantastic {
+  display: inline-block;
+}
+.articleTitle > a {
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  left: 73px;
+  bottom: 16px;
+  text-decoration: none;
+}
+
+ #date {
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 97px;
+  position:relative;
+  bottom:16px;
+  color: grey;
+  text-decoration: underline;
+}
+main > p {
+
+}
+
+.sideBar {
+  display: none;
+}
+footer {
+display: none;
+}
