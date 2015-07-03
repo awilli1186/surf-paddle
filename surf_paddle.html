@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Surf & Paddle Co.</title>
-
+    <!--redo the goolge font link-->
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -15,7 +15,7 @@
 
       <header class="pageTitle">
         <div class="menuBar">
-          <a href="#"><img src="logo.png" alt="surf & paddle logo" /></a>
+          <a href="#"><img src="logo.png" alt="surf &amp; paddle logo" /></a>
           <h5 class="blog">SURF & PADDLE CO. BLOG</h5>
         <span>
           <a href="#">ABOUT</a>
@@ -23,20 +23,20 @@
           </span>
 
         </div>
-        <h1 id="title">SURF & PADDLE CO.</h1>
+        <h1 id="title">SURF &amp; PADDLE CO.</h1>
         <h5 id="subTitle">An Ironyard Academy Project Est. Fall 3013</h5>
 
       </header>
 
       <main>
-
+        <!--change this to the article tag-->
           <div class="article">
 
             <header class="articleTitle">
               <h1 id="fantastic">A FANTASTIC ENGAGING <br>HEADLINE GOES HERE</h1>
               <img src="avatar.png" alt="avatar photo" />
-              <a href="#">Anne Marie</a>
-              <span id="date">on <a href="#">Monday Oct 7th 9:22pm</a></span>
+              <a href="#" id="name">Anne Marie</a>
+              <span id="day">on </span> <a href="#" id="date">Monday Oct 7th 9:22pm</a>
             </header>
 
             <p>
@@ -46,9 +46,7 @@
 
               <blockquote cite="http://">
 
-                <p>
-                  WHOA, THAT'S RADICAL!
-                </p>
+                <h2>WHOA, THAT'S RADICAL!</h2>
 
               </blockquote>
 
@@ -58,12 +56,16 @@
               </p>
           </div>
 
-          <div class="interactiveBar">
-            <a href="#"><img src="icon-comment.png" alt="comment icon" />Read Comments</a>
-            <a href="#"><img src="icon-upload.png" alt="upload icon" />Read Later</a>
-            <a href="#"><img src="icon-share.png" alt="share icon" />Share This Post</a>
+          <div>
 
-          </div>
+            <ul class="share">
+
+            <li id="comments"><img src="icon-comment.png" alt="comments" /><a href="#">Read Comments</a></li>
+            <li id="upload"><li><img src="icon-upload.png" alt="upload" /><a href="#">Read Later</a></li>
+            <li id="share"><img src="icon-share.png" alt="share" /><a href="#">Share This Post</a></li>
+
+          </ul>
+        </div>
 
       </main>
 
@@ -142,8 +144,6 @@
 
 
           </div>
-
-
 
 
       </footer>
