@@ -2,6 +2,15 @@
   font-family: "Open Sans";
 }
 
+a {
+  color: #A9B8C3;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #083451;
+}
+
 .pageTitle {
   background-image: url(header.jpg);
   width: 92%;
@@ -25,10 +34,20 @@
   font-size: 16px;
   word-spacing: -0.8px;
   text-decoration: none;
-  color:black;
+  color: #083451;
+  font-weight: lighter;
 }
 
+.menuBar a:hover {
+  color: white;
+  font-weight: bolder;
 }
+
+span a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
 .menuBar > a {
   color: #083451;
   text-decoration: none;
@@ -41,7 +60,6 @@ span {
   right: 8.9em;
   bottom: 93px;
   font-size: 18px;
-  font-weight: bold;
 }
 span a img {
   padding-left: .3em;
@@ -53,6 +71,7 @@ span > a {
   padding-right: .5em;
 }
 
+
 #title {
   position: relative;
   left: 2em;
@@ -60,14 +79,17 @@ span > a {
   font-weight:lighter;
   font-size: 98px;
   color: white;
+  font-weight: 500;
 }
 
 #subTitle {
   position: relative;
   text-align: center;
-  bottom: 41px;
-  font-size: 15px;
+  bottom: 40px;
+  font-size: 14px;
   color: #083451;
+  font-weight: 700;
+  word-spacing: 1px;
 }
 
 main {
@@ -120,10 +142,15 @@ article img {
 #date {
   position: relative;
   font-size: 13.3px;
-  left: 15.7em;
+  left: 15.8em;
   bottom: 39.7px;
   color: #BAC6CF;
   word-spacing: 1px;
+}
+
+#date:hover {
+  color: #083451;
+  font-weight: bolder;
 }
 
 article p {
@@ -140,18 +167,20 @@ blockquote {
 }
 
 blockquote h1 {
-  font-size: 27px;
+  font-size: 28px;
+  font-weight: 400;
   color: #106DB3;
   position: relative;
-  padding-left: .6em;
+  padding-left: .7em;
   padding-top: 7px;
   padding-bottom: 7px;
+  word-spacing: -7px;
 }
 
 .share {
   list-style-type: none;
-  margin-left: 10.7em;
-  padding: 0;
+  margin-left: 8.3em;
+  padding-top: 4px;
 }
 
 .share li {
@@ -168,8 +197,8 @@ blockquote h1 {
     color: white;
     font-size: 12.5px;
     font-weight: lighter;
-    padding: 4px 12px 4px 12px;
-    margin-right: 1.5em;
+    padding: 6.2px 13px 5px 12px;
+    margin-right: 1.1em;
     border: 1px solid #A3B3BF;
 }
 
@@ -185,20 +214,22 @@ blockquote h1 {
 
 #comments img {
   position:relative;
-  top: 8.3px;
-  padding: 5px;
+  top: 9.3px;
+  padding: 6.3px;
+  right: -1px;
 }
 
 #upload img {
   position: relative;
-  top: 8.3px;
-  padding:6.55px;
+  top: 9.3px;
+  padding:7.6px;
+  right: -1px;
 }
 
 #share img {
   position: relative;
-  top: 8.2px;
-  padding: 6.1px;
+  top: 9.3px;
+  padding: 7.3px;
 }
 
 .sideBar {
@@ -215,12 +246,18 @@ blockquote h1 {
   top: 85px;
 }
 
-.sideBar H3 {
+#sidebarAvatar:hover {
+  transform: scale(1.1);
+}
+
+.sideBar h3 {
   position: relative;
   top: 73.2px;
   left: 6.7em;
   font-size: 16px;
   color:  #106DB3;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .socialMedia {
@@ -247,6 +284,7 @@ blockquote h1 {
 
 .socialMedia a:hover {
 color:  #106DB3;
+font-weight: bolder;
 }
 
 #adPhoto {
@@ -254,6 +292,11 @@ color:  #106DB3;
   top: 105px;
   left: 1em;
 }
+
+#adPhoto:hover {
+    transform: scale(1.1);
+}
+
 .ad a {
   position:relative;
   top: 104px;
@@ -264,6 +307,7 @@ color:  #106DB3;
 
 .ad a:hover{
 color: #106DB3;
+font-weight: bolder;
 }
 
 #sideTitle {
@@ -285,22 +329,26 @@ color: #106DB3;
 
 footer {
   float: left;
-  width: 100%;
+  width: 92%;
   height: 300px;
-  margin-left: 1em;
+  position: relative;
+  bottom: 102px;
+  margin-left: 3.4em;
   border-top: 1px solid #E1E7EA;
 }
 
 footer h1 {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  font-size: 54px;
+  font-size: 63px;
   color:#083452;
+  font-weight: 400;
+  position: relative;
+  bottom: 18px;
 }
 
 .posts {
-  background-color: blue;
-  opacity: .5;
+  width: 100%;
 }
 .articleImages {
     list-style-type: none;
@@ -310,19 +358,95 @@ footer h1 {
 
 .posts li {
   display:inline-block;
+  float: left;
+  background-color:  #106DB3;
+  opacity: .9;
+  position: relative;
+  top: -31px;
+  right: 40px;
 }
+
 .posts img {
   float: left;
-  opacity: .5;
+  opacity: .4;
 }
 
-.posts img:hover {
-  opacity:2;
-}
-.posts:hover {
+.posts li:hover {
   background: none;
+  opacity:1;
 }
 
-#surfer {
+#surfer, #beer, #liquor {
   position: absolute;
+  top: 260px;
+  left: 0.7em;
+  color: #083452;
+  font-size: 26px;
+  font-weight:600;
+}
+
+#zack {
+  word-break: normal;
+  position: absolute;
+  top: 220px;
+  left: 0.7em;
+  color: #083452;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#surfer:hover, #beer:hover, #zack:hover,#liquor:hover {
+    color: white;
+}
+.footBar {
+  float: left;
+  width: 99.5%;
+  height: 97px;
+  display: inline-block;
+  background-color: #083452;
+  position: relative;
+  bottom: 31px;
+}
+
+#ironyard {
+  position: relative;
+  top: 27px;
+  left: 164px;
+}
+.footBar > p {
+  position:relative;
+  top: -16px;
+padding-left: 16em;
+  font-size: 13.8px;
+  font-weight: 200;
+  color: #A3B3BF;
+}
+
+.nav {
+  position:relative;
+  bottom: 48px;
+  right: 165.5px;
+  float: right;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.nav a {
+    color: #A3B3BF;
+    text-decoration: none;
+    font-size:
+}
+.nav a:hover {
+  color: white;
+  font-weight: bolder;
+}
+.navLink {
+  border-right: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#navLink5 {
+  padding-left: 5px;
 }
