@@ -366,6 +366,15 @@ footer h1 {
   right: 40px;
 }
 
+.posts li p {
+    color: #083452;
+    position: absolute;
+    top: 260px;
+    left: 0.7em;
+    font-size: 26px;
+    font-weight:600;
+    cursor: pointer;
+}
 .posts img {
   float: left;
   opacity: .4;
@@ -376,13 +385,8 @@ footer h1 {
   opacity:1;
 }
 
-#surfer, #beer, #liquor {
-  position: absolute;
-  top: 260px;
-  left: 0.7em;
-  color: #083452;
-  font-size: 26px;
-  font-weight:600;
+.posts li:hover p {
+    color: #fff;
 }
 
 #zack {
@@ -390,14 +394,11 @@ footer h1 {
   position: absolute;
   top: 220px;
   left: 0.7em;
-  color: #083452;
   font-size: 26px;
   font-weight: 600;
 }
 
-#surfer:hover, #beer:hover, #zack:hover,#liquor:hover {
-    color: white;
-}
+
 .footBar {
   float: left;
   width: 99.5%;
