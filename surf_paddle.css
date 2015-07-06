@@ -1,3 +1,4 @@
+
 * {
   font-family: "Open Sans";
 }
@@ -11,11 +12,15 @@ a:hover {
   color: #083451;
 }
 
+body {
+  overflow-x: hidden;
+  width:100%;
+}
 .pageTitle {
   background-image: url(header.jpg);
-  width: 92%;
+  width: 90.28%;
   height: 529px;
-  margin-left: 3em;
+  margin-left: 4.46%;
   margin-top: -1em;
 }
 
@@ -24,8 +29,8 @@ a:hover {
 }
 .menuBar > a img {
   position: relative;
-  top: 16px;
-  left: -.7em;
+  top: 18px;
+  left: -.9em;
 }
 .blog a {
   position: relative;
@@ -76,16 +81,16 @@ span > a {
   position: relative;
   left: 2em;
   top: 42px;
-  font-weight:lighter;
-  font-size: 98px;
+  font-size: 6em;
   color: white;
   font-weight: 500;
+  word-spacing: 2px;
 }
 
 #subTitle {
   position: relative;
   text-align: center;
-  bottom: 40px;
+  bottom: 33px;
   font-size: 14px;
   color: #083451;
   font-weight: 700;
@@ -104,7 +109,7 @@ main {
 }
 #fantastic {
   position: relative;
-  left: 2.7em;
+  left: 1.7em;
   top: 8px;
   font-family: "Oswald", sans-serif;
   font-weight:normal;
@@ -118,14 +123,14 @@ main {
 article img {
   width: 2.5%;
   position: relative;
-  left: 10.8em;
-  bottom:37px;
+  left: 6.6em;
+  bottom:36px;
 }
 
 #name {
   position: relative;
-  left: 14.9em;
-  bottom: 41px;
+  left: 9.1em;
+  bottom: 40px;
   font-size: 12px;
   text-decoration: none;
   color: #106DB3;
@@ -134,15 +139,16 @@ article img {
 .articleTitle > span {
   font-size: 13px;
   position: relative;
-  right: 42.4em;
-  bottom: 32.7px;
+  left: 9em;
+  bottom: 39.7px;
   color:#BAC6CF;
+  float: none;
 }
 
 #date {
   position: relative;
   font-size: 13.3px;
-  left: 15.8em;
+  left: 8.8em;
   bottom: 39.7px;
   color: #BAC6CF;
   word-spacing: 1px;
@@ -155,32 +161,33 @@ article img {
 
 article p {
   margin-top: -7px;
-  padding-left: 10.6em;
+  padding-left: 6.6em;
   padding-right: 4em;
   line-height: 26px;
 }
 
 blockquote {
   border-left: 2px solid #ccc;
-  margin-left: 10.9em;
-  margin-top: 52px;
+  margin-left: 6.7em;
+  margin-top: 32px;
 }
 
 blockquote h1 {
   font-size: 28px;
   font-weight: 400;
   color: #106DB3;
-  position: relative;
-  padding-left: .7em;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  position:relative;
+  left: .8em;
+  padding-top: 5px;
+  padding-bottom: 5px;
   word-spacing: -7px;
 }
 
 .share {
   list-style-type: none;
-  margin-left: 8.3em;
-  padding-top: 4px;
+  margin-left: 4.3em;
+  position:relative;
+  bottom: -10px;
 }
 
 .share li {
@@ -202,12 +209,12 @@ blockquote h1 {
     border: 1px solid #A3B3BF;
 }
 
-.share li a:hover {
+.share li:hover a {
   background-color: #106DB3;
   border: 1px solid #106DB3;
 }
 
-.share li img:hover {
+.share li:hover img {
   background-color: #083452;
   border: 1px solid #083452;
 }
@@ -217,6 +224,7 @@ blockquote h1 {
   top: 9.3px;
   padding: 6.3px;
   right: -1px;
+  cursor: pointer;
 }
 
 #upload img {
@@ -224,12 +232,14 @@ blockquote h1 {
   top: 9.3px;
   padding:7.6px;
   right: -1px;
+  cursor: pointer;
 }
 
 #share img {
   position: relative;
   top: 9.3px;
   padding: 7.3px;
+  cursor: pointer;
 }
 
 .sideBar {
@@ -242,7 +252,7 @@ blockquote h1 {
 #sidebarAvatar {
   width 25%;
   position: relative;
-  left: 7em;
+  left: 7.7em;
   top: 85px;
 }
 
@@ -253,11 +263,12 @@ blockquote h1 {
 .sideBar h3 {
   position: relative;
   top: 73.2px;
-  left: 6.7em;
+  left: 7.3em;
   font-size: 16px;
   color:  #106DB3;
   text-decoration: none;
   font-weight: 400;
+  margin-right: 5em;
 }
 
 .socialMedia {
@@ -268,7 +279,7 @@ blockquote h1 {
   text-decoration: none;
   position: relative;
   top: 55px;
-  left: 4.3em;
+  left: 5.1em;
   color: #A3B3BF;
   padding: 0 6px;
   font-size: 12.5px;
@@ -289,8 +300,8 @@ font-weight: bolder;
 
 #adPhoto {
   position: relative;
-  top: 105px;
-  left: 1em;
+  top: 107px;
+  left: 1.5em;
 }
 
 #adPhoto:hover {
@@ -299,8 +310,8 @@ font-weight: bolder;
 
 .ad a {
   position:relative;
-  top: 104px;
-  left: 16.1em;
+  top: 105px;
+  left: 16.8em;
   font-size: 13px;
   color: #A3B3BF;
 }
@@ -313,7 +324,7 @@ font-weight: bolder;
 #sideTitle {
   position:relative;
   top: 130px;
-  left: 0.8em;
+  left: 1.4em;
   font-size: 18px;
   font-family: "Oswald";
   color:#106DB3;
@@ -323,43 +334,44 @@ font-weight: bolder;
  .sideBar p {
   position: relative;
   top: 116px;
-  left: 1em;
+  left: 1.5em;
   padding-right: 4em;
 }
 
 footer {
   float: left;
-  width: 92%;
+  width: 100%;
   height: 300px;
   position: relative;
   bottom: 102px;
-  margin-left: 3.4em;
   border-top: 1px solid #E1E7EA;
 }
 
 footer h1 {
-  text-align: center;
   font-family: "Oswald", sans-serif;
   font-size: 63px;
   color:#083452;
   font-weight: 400;
   position: relative;
   bottom: 18px;
+  left: 6.8em;
 }
 
-.posts {
-  width: 100%;
-}
 .articleImages {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+.posts {
+  width: 100%;
+  margin-left: 4.46%;
+}
+
 .posts li {
   display:inline-block;
   float: left;
-  background-color:  #106DB3;
+  background-color: #106DB3;
   opacity: .9;
   position: relative;
   top: -31px;
@@ -369,12 +381,13 @@ footer h1 {
 .posts li p {
     color: #083452;
     position: absolute;
-    top: 260px;
+    top: 251px;
     left: 0.7em;
-    font-size: 26px;
-    font-weight:600;
+    font-family: "Oswald";
+    font-size: 29px;
     cursor: pointer;
 }
+
 .posts img {
   float: left;
   opacity: .4;
@@ -382,7 +395,6 @@ footer h1 {
 
 .posts li:hover {
   background: none;
-  opacity:1;
 }
 
 .posts li:hover p {
@@ -392,16 +404,18 @@ footer h1 {
 #zack {
   word-break: normal;
   position: absolute;
-  top: 220px;
+  top: 206px;
   left: 0.7em;
-  font-size: 26px;
-  font-weight: 600;
+  font-family: "Oswald";
+  font-size: 29px;
+
 }
 
 
 .footBar {
   float: left;
-  width: 99.5%;
+  width: 90.55%;
+  margin-left: 4.46%;
   height: 97px;
   display: inline-block;
   background-color: #083452;
@@ -414,10 +428,15 @@ footer h1 {
   top: 27px;
   left: 164px;
 }
+
+#ironyard:hover {
+  transform:scale(1.1);
+}
+
 .footBar > p {
   position:relative;
   top: -16px;
-padding-left: 16em;
+  margin-left: 16em;
   font-size: 13.8px;
   font-weight: 200;
   color: #A3B3BF;
@@ -438,10 +457,7 @@ padding-left: 16em;
     text-decoration: none;
     font-size:
 }
-.nav a:hover {
-  color: white;
-  font-weight: bolder;
-}
+
 .navLink {
   border-right: 1px solid grey;
   padding-left: 5px;
@@ -450,4 +466,14 @@ padding-left: 16em;
 
 #navLink5 {
   padding-left: 5px;
+}
+
+@media screen and (max-width: 870px) {
+
+  main, aside, footer  {
+    float: none;
+    width:auto;
+  }
+
+
 }
