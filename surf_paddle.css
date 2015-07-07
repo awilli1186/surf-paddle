@@ -19,28 +19,23 @@ body {
 .pageTitle {
   background-image: url(header.jpg);
   width: 90.28%;
-  height: 529px;
+  height: 525px;
   margin-left: 4.46%;
   margin-top: -1em;
 }
 
-.menuBar {
-  padding-left: 12%;
-}
 .menuBar > a img {
   position: relative;
   top: 18px;
-  left: -.9em;
+  left: 8.7em;
 }
 .blog a {
   position: relative;
-  left: 3em;
-  bottom: 44px;
+  left: 12.4em;
+  bottom: 39px;
   font-size: 16px;
-  word-spacing: -0.8px;
   text-decoration: none;
   color: #083451;
-  font-weight: lighter;
 }
 
 .menuBar a:hover {
@@ -48,26 +43,25 @@ body {
   font-weight: bolder;
 }
 
-span a:hover {
-  color: white;
-  font-weight: bolder;
-}
-
 .menuBar > a {
   color: #083451;
   text-decoration: none;
-  padding-top: 20px;
 }
 
 span {
   position: relative;
   float:right;
   right: 8.9em;
-  bottom: 93px;
+  bottom: 83px;
   font-size: 18px;
 }
+
+span a:hover {
+  color: white;
+  font-weight: bolder;
+}
 span a img {
-  padding-left: .3em;
+  padding-left: .1em;
 }
 span > a {
   color:#083451;
@@ -80,7 +74,7 @@ span > a {
 #title {
   position: relative;
   left: 2em;
-  top: 42px;
+  top: 16px;
   font-size: 6em;
   color: white;
   font-weight: 500;
@@ -89,8 +83,8 @@ span > a {
 
 #subTitle {
   position: relative;
-  text-align: center;
-  bottom: 33px;
+  left: 35.4em;
+  bottom: 96px;
   font-size: 14px;
   color: #083451;
   font-weight: 700;
@@ -102,20 +96,20 @@ main {
   float: left;
   width:60%;
   height: 1100px;
-  margin: 5px 0 5px 3em;
 }
+
 .articleTitle {
   background: none;
 }
-#fantastic {
+
+article  #fantastic {
   position: relative;
-  left: 1.7em;
-  top: 8px;
+  top: 1px;
+  margin-left: 3.6em;
   font-family: "Oswald", sans-serif;
   font-weight:normal;
   font-size: 62px;
   color: #083452;
-  padding-right: 1em;
   line-height: 70px;
   word-spacing: 4px;
 }
@@ -123,14 +117,14 @@ main {
 article img {
   width: 2.5%;
   position: relative;
-  left: 6.6em;
-  bottom:36px;
+  left: 14.4em;
+  bottom: 54px;
 }
 
 #name {
   position: relative;
-  left: 9.1em;
-  bottom: 40px;
+  left: 19.6em;
+  bottom: 58px;
   font-size: 12px;
   text-decoration: none;
   color: #106DB3;
@@ -139,8 +133,8 @@ article img {
 .articleTitle > span {
   font-size: 13px;
   position: relative;
-  left: 9em;
-  bottom: 39.7px;
+  left: 19em;
+  bottom: 56.7px;
   color:#BAC6CF;
   float: none;
 }
@@ -148,8 +142,8 @@ article img {
 #date {
   position: relative;
   font-size: 13.3px;
-  left: 8.8em;
-  bottom: 39.7px;
+  left: 18.6em;
+  bottom: 54.7px;
   color: #BAC6CF;
   word-spacing: 1px;
 }
@@ -159,17 +153,21 @@ article img {
   font-weight: bolder;
 }
 
-article p {
-  margin-top: -7px;
-  padding-left: 6.6em;
-  padding-right: 4em;
+article > p {
+  margin-top: -25px;
+  padding-left: 14.1em;
+  padding-right: 2em;
   line-height: 26px;
+}
+
+#secondP {
+  padding-top: 31px;
 }
 
 blockquote {
   border-left: 2px solid #ccc;
-  margin-left: 6.7em;
-  margin-top: 32px;
+  margin-left: 14.5em;
+  margin-top: 26px;
 }
 
 blockquote h1 {
@@ -177,7 +175,7 @@ blockquote h1 {
   font-weight: 400;
   color: #106DB3;
   position:relative;
-  left: .8em;
+  left: .6em;
   padding-top: 5px;
   padding-bottom: 5px;
   word-spacing: -7px;
@@ -185,9 +183,9 @@ blockquote h1 {
 
 .share {
   list-style-type: none;
-  margin-left: 4.3em;
+  margin-left: 11.8em;
   position:relative;
-  bottom: -10px;
+  bottom: 4px;
 }
 
 .share li {
@@ -204,7 +202,7 @@ blockquote h1 {
     color: white;
     font-size: 12.5px;
     font-weight: lighter;
-    padding: 6.2px 13px 5px 12px;
+    padding: 5.2px 13px 5px 12px;
     margin-right: 1.1em;
     border: 1px solid #A3B3BF;
 }
@@ -245,14 +243,12 @@ blockquote h1 {
 .sideBar {
   width: 25%;
   float: left;
-  height:100%;
-  min-height: 100%
 }
 
 #sidebarAvatar {
   width 25%;
   position: relative;
-  left: 7.7em;
+  left: 10em;
   top: 85px;
 }
 
@@ -260,10 +256,10 @@ blockquote h1 {
   transform: scale(1.1);
 }
 
-.sideBar h3 {
+aside > #profile {
   position: relative;
   top: 73.2px;
-  left: 7.3em;
+  left: 9.7em;
   font-size: 16px;
   color:  #106DB3;
   text-decoration: none;
@@ -271,15 +267,11 @@ blockquote h1 {
   margin-right: 5em;
 }
 
-.socialMedia {
-  position relative;
-}
-
 .socialMedia a {
   text-decoration: none;
   position: relative;
   top: 55px;
-  left: 5.1em;
+  left: 8.1em;
   color: #A3B3BF;
   padding: 0 6px;
   font-size: 12.5px;
@@ -301,17 +293,13 @@ font-weight: bolder;
 #adPhoto {
   position: relative;
   top: 107px;
-  left: 1.5em;
-}
-
-#adPhoto:hover {
-    transform: scale(1.1);
+  left: 3.9em;
 }
 
 .ad a {
   position:relative;
   top: 105px;
-  left: 16.8em;
+  left: 19.8em;
   font-size: 13px;
   color: #A3B3BF;
 }
@@ -324,7 +312,7 @@ font-weight: bolder;
 #sideTitle {
   position:relative;
   top: 130px;
-  left: 1.4em;
+  left: 3.4em;
   font-size: 18px;
   font-family: "Oswald";
   color:#106DB3;
@@ -334,7 +322,7 @@ font-weight: bolder;
  .sideBar p {
   position: relative;
   top: 116px;
-  left: 1.5em;
+  left: 3.8em;
   padding-right: 4em;
 }
 
@@ -347,13 +335,13 @@ footer {
   border-top: 1px solid #E1E7EA;
 }
 
-footer h1 {
+footer > p {
   font-family: "Oswald", sans-serif;
   font-size: 63px;
   color:#083452;
   font-weight: 400;
   position: relative;
-  bottom: 18px;
+  bottom: 29px;
   left: 6.8em;
 }
 
@@ -374,7 +362,7 @@ footer h1 {
   background-color: #106DB3;
   opacity: .9;
   position: relative;
-  top: -31px;
+  bottom: 62px;
   right: 40px;
 }
 
@@ -420,7 +408,7 @@ footer h1 {
   display: inline-block;
   background-color: #083452;
   position: relative;
-  bottom: 31px;
+  bottom: 62px;
 }
 
 #ironyard {
@@ -470,10 +458,14 @@ footer h1 {
 
 @media screen and (max-width: 870px) {
 
-  main, aside, footer  {
+  main, aside  {
     float: none;
     width:auto;
   }
+
+header .blog {
+  display: none;
+}
 
 
 }
