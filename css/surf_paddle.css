@@ -41,8 +41,7 @@ header.pageTitle {
 
 span {
   position: relative;
-  float: right;
-  right: 8.9em;
+  left: 55em;
   bottom: 83px;
   font-size: 18px; }
   span a:hover {
@@ -59,7 +58,7 @@ span {
 #title {
   position: relative;
   left: 2em;
-  top: 16px;
+  top: 3px;
   font-size: 6em;
   color: white;
   font-weight: 500;
@@ -68,7 +67,7 @@ span {
 #subTitle {
   position: relative;
   left: 35.4em;
-  bottom: 96px;
+  bottom: 75px;
   font-size: 14px;
   color: #083451;
   font-weight: 700;
@@ -150,7 +149,7 @@ blockquote {
     left: .6em;
     padding-top: 5px;
     padding-bottom: 5px;
-    word-spacing: -7px; }
+    word-spacing: -3px; }
 
 .share {
   list-style-type: none;
@@ -372,7 +371,7 @@ footer {
   header .articleTitle {
     width: auto; }
   header span {
-    padding-right: 8.5em; }
+    left: 3em; }
   header img {
     padding-left: 13em;
     padding-top: 7em; }
@@ -380,10 +379,11 @@ footer {
     display: none; }
   header #title {
     font-size: 65px;
-    left: 1.5em; }
+    left: 1em;
+    top: .5em; }
   header #subTitle {
-    bottom: 55px;
-    left: 18em; }
+    bottom: 18px;
+    left: 16em; }
   article {
     left: 1em; }
     article #fantastic {
@@ -391,11 +391,14 @@ footer {
     article img {
       width: 10%;
       left: -3em; }
+    article span {
+      display: none; }
     article #name {
       font-size: 12px;
       left: -3em; }
     article #date {
-      left: -9em; }
+      left: 0em;
+      bottom: 58px; }
     article p {
       left: -4em; }
     article blockquote {
@@ -427,14 +430,15 @@ footer {
     footer li {
       left: 1.5em; }
     footer .footBar {
-      width: 82%; }
+      width: 79%;
+      left: 4em; }
       footer .footBar p {
         display: none; }
       footer .footBar .nav {
         top: 2.6em;
         right: 3.5em; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   main {
     float: none;
     width: auto;

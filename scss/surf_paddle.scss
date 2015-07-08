@@ -52,8 +52,7 @@ header.pageTitle {
 
 span {
   position: relative;
-  float: right;
-  right: 8.9em;
+  left: 55em;
   bottom: 83px;
   font-size: 18px;
   a {
@@ -76,7 +75,7 @@ span {
 #title {
   position: relative;
   left: 2em;
-  top: 16px;
+  top: 3px;
   font-size: 6em;
   color: white;
   font-weight: 500;
@@ -86,7 +85,7 @@ span {
 #subTitle {
   position: relative;
   left: 35.4em;
-  bottom: 96px;
+  bottom: 75px;
   font-size: 14px;
   color: #083451;
   font-weight: 700;
@@ -180,7 +179,7 @@ blockquote {
     left: .6em;
     padding-top: 5px;
     padding-bottom: 5px;
-    word-spacing: -7px;
+    word-spacing: -3px;
   }
 }
 
@@ -449,7 +448,7 @@ footer {
     width: auto;
   }
   span {
-    padding-right: 8.5em;
+    left: 3em;
   }
   img {
     padding-left: 13em;
@@ -460,11 +459,12 @@ footer {
   }
   #title {
     font-size: 65px;
-    left:1.5em;
+    left: 1em;
+    top: .5em;
   }
   #subTitle {
-    bottom:55px;
-    left:18em;
+    bottom: 18px;
+    left:16em;
   }
 }
   article {
@@ -476,12 +476,16 @@ footer {
       width:10%;
       left:-3em;
     }
+    span {
+      display: none;
+    }
     #name {
       font-size:12px;
       left:-3em;
     }
     #date {
-      left:-9em;
+      left: 0em;
+      bottom: 58px;
     }
     p {
       left:-4em;
@@ -531,8 +535,8 @@ footer {
       left:1.5em;
     }
     .footBar{
-    width:82%;
-    // left:4em;
+    width:79%;
+    left:4em;
     p {
       display:none;
     }
@@ -543,16 +547,12 @@ footer {
   }
   }
     }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
   main {
     float: none;
     width:auto;
     margin:0;
   }
-  // body {
-  //   margin: 0;
-  //   padding:0;
-  // }
  header {
    margin:0;
    span {
@@ -584,7 +584,6 @@ footer {
    img {
      display:none;
    }
-
    span {
      display: none;
    }
