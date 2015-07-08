@@ -13,69 +13,68 @@ a {
 body {
   overflow-x: hidden;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-
-header.pageTitle {
+.pageTitle {
   background-image: url(../assets/header.jpg);
-  width: 90.28%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
   height: 525px;
-  margin-left: 4.46%;
-  margin-top: -1em;
-}
-
-.menuBar > a img {
-  position: relative;
-  top: 18px;
-  left: 8.7em;
-}
-
-.blog a {
-  position: relative;
-  left: 12.4em;
-  bottom: 39px;
-  font-size: 16px;
-  text-decoration: none;
-  color: #083451;
-}
-
-.menuBar {
-  a:hover {
-    color: white;
-    font-weight: bolder;
+  img {
+    position: relative;
+    top: 18px;
+    left: 8.7em;
   }
-  > a {
+  h3 a {
+    position: relative;
+    left: 12.4em;
+    bottom: 39px;
+    font-size: 16px;
     color: #083451;
+    font-weight: lighter;
+  }
+  a {
     text-decoration: none;
   }
+  h3 a:hover {
+    color: white;
+  }
 }
 
-span {
+nav {
+  background-image: url(../assets/search-icon.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 15px;
   position: relative;
-  left: 55em;
-  bottom: 83px;
-  font-size: 18px;
+  float: left;
+  left: 64em;
+  bottom: 5.5em;
+  text-decoration: none;
+  font-family: "Oswald";
   a {
-    &:hover {
-      color: white;
-      font-weight: bolder;
-    }
-    img {
-      padding-left: .1em;
-    }
-  }
-  > a {
     color: #083451;
     text-decoration: none;
     font-family: "Oswald";
-    padding-right: .5em;
+    font-size: 18px;
+    padding-right: 5px;
+    &:hover {
+      color: white;
+      font-weight: bolder;
+      color: white;
+      font-weight: bolder;
+    }
   }
 }
 
 #title {
   position: relative;
-  left: 2em;
-  top: 3px;
+  left: 2.7em;
+  top: 40px;
   font-size: 6em;
   color: white;
   font-weight: 500;
@@ -84,8 +83,8 @@ span {
 
 #subTitle {
   position: relative;
-  left: 35.4em;
-  bottom: 75px;
+  left: 38.8em;
+  bottom: 40px;
   font-size: 14px;
   color: #083451;
   font-weight: 700;
@@ -99,28 +98,23 @@ main {
   height: 1100px;
 }
 
-.articleTitle {
-  background: none;
+#fantastic {
+  position: relative;
+  top: 1px;
+  margin-left: 3.6em;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 62px;
+  color: #083452;
+  line-height: 70px;
+  word-spacing: 4px;
 }
 
-article {
-  #fantastic {
-    position: relative;
-    top: 1px;
-    margin-left: 3.6em;
-    font-family: "Oswald", sans-serif;
-    font-weight: normal;
-    font-size: 62px;
-    color: #083452;
-    line-height: 70px;
-    word-spacing: 4px;
-  }
-  img {
-    width: 2.5%;
-    position: relative;
-    left: 14.4em;
-    bottom: 54px;
-  }
+article img {
+  width: 2.5%;
+  position: relative;
+  left: 14.4em;
+  bottom: 54px;
 }
 
 #name {
@@ -227,8 +221,8 @@ blockquote {
 
 #upload img {
   position: relative;
-  top: 9.3px;
-  padding: 7.6px;
+  top: 8.3px;
+  padding: 7.4px;
   right: -1px;
   cursor: pointer;
 }
@@ -237,6 +231,7 @@ blockquote {
   position: relative;
   top: 9.3px;
   padding: 7.3px;
+  right: -1px;
   cursor: pointer;
 }
 
@@ -249,9 +244,10 @@ blockquote {
   position: relative;
   left: 10em;
   top: 85px;
-  &:hover {
-    transform: scale(1.1);
-  }
+}
+
+.sideBar img:hover {
+  transform: scale(1.1);
 }
 
 aside > #profile {
@@ -315,7 +311,7 @@ aside > #profile {
   position: relative;
   top: 116px;
   left: 3.8em;
-  padding-right: 4em;
+  padding-right: 5em;
 }
 
 footer {
@@ -344,12 +340,11 @@ footer {
 
 .posts {
   width: 100%;
-  margin-left: 4.46%;
   li {
+    width: 25%;
     display: inline-block;
     float: left;
     background-color: #106DB3;
-    opacity: .9;
     position: relative;
     bottom: 72px;
     right: 40px;
@@ -364,14 +359,20 @@ footer {
     }
   }
   img {
+    clear: left;
+    width: 100%;
     float: left;
     opacity: .4;
   }
   li:hover {
     background: none;
-    p {
-      color: #fff;
-    }
+    transition: 1s ease all;
+  }
+  img:hover {
+    opacity: .8;
+  }
+  li:hover p {
+    color: #fff;
   }
 }
 
@@ -386,8 +387,7 @@ footer {
 
 .footBar {
   float: left;
-  width: 90.55%;
-  margin-left: 4.46%;
+  width: 100%;
   height: 97px;
   display: inline-block;
   background-color: #083452;
@@ -431,253 +431,8 @@ footer {
   border-right: 1px solid #D3D3D3;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-#navLink5 {
-  padding-left: 5px;
-}
-
-@media screen and (max-width: 900px) {
-
-  main, aside {
-    float: none;
-    width: auto;
-  }
-  header {
-  .articleTitle {
-    width: auto;
-  }
-  span {
-    left: 3em;
-  }
-  img {
-    padding-left: 13em;
-    padding-top:7em;
-  }
-    .blog {
-    display: none;
-  }
-  #title {
-    font-size: 65px;
-    left: 1em;
-    top: .5em;
-  }
-  #subTitle {
-    bottom: 18px;
-    left:16em;
+  &:last-child {
+    border-right: none;
+    padding-left: 5px;
   }
 }
-  article {
-    left:1em;
-    #fantastic {
-      left: -1em;
-    }
-    img {
-      width:10%;
-      left:-3em;
-    }
-    span {
-      display: none;
-    }
-    #name {
-      font-size:12px;
-      left:-3em;
-    }
-    #date {
-      left: 0em;
-      bottom: 58px;
-    }
-    p {
-      left:-4em;
-    }
-    blockquote {
-      border:none;
-    }
-  }
-  .sideBar {
-    width:auto;
-    #sidebarAvatar {
-      left:25em;
-    }
-    #profile {
-      left:18em;
-    }
-    #adPhoto {
-      left:19em;
-    }
-    .socialMedia {
-      a {
-        left:27.6em;
-      }
-    }
-    .ad a {
-      left:31em;
-    }
-    #sideTitle {
-      left:12em;
-    }
-    p {
-      left:5em;
-      margin-right:8em;
-      margin-left: 7em;
-    }
-    br {
-      display: none;
-    }
-    }
-
-    footer {
-      top:7em;
-    p {
-      left:2.5em;
-    }
-    li {
-      left:1.5em;
-    }
-    .footBar{
-    width:79%;
-    left:4em;
-    p {
-      display:none;
-    }
-    .nav {
-      top: 2.6em;
-      right:3.5em;
-    }
-  }
-  }
-    }
-@media screen and (max-width: 400px){
-  main {
-    float: none;
-    width:auto;
-    margin:0;
-  }
- header {
-   margin:0;
-   span {
-     left:4em;
-     bottom:13em;
-   }
-   img {
-     padding-left: 2em;
-     padding-top:7em;
-   }
-
-   #title {
-     font-size: 31px;
-     left:1.3em;
-     top: -2em;
-   }
-   #subTitle {
-     font-size: 14px;
-     bottom: 81px;
-     left: 2.5em;
-   }
- }
- article {
-   left:1em;
-   #fantastic {
-     font-size: 46px;
-     left: -2em;
-   }
-   img {
-     display:none;
-   }
-   span {
-     display: none;
-   }
-   #name {
-     display:none;
-   }
-   #date {
-     left:6em;
-   }
-   p {
-     left:-5em;
-     margin-left: -4em;
-   }
-   blockquote {
-     display:none;
-   }
-   #secondP {
-     display:none;
-   }
- }
-   .share {
-     left:-7em;
-     li{
-       a {
-     display:none;
-   }
- }
- }
-
-.sideBar {
-    width:auto;
-    float:left;
-    top: 100px;
-    #sidebarAvatar {
-      left:8em;
-    }
-    #profile {
-      left:18em;
-    }
-    #adPhoto {
-      left:2em;
-      top:9em;
-    }
-    .socialMedia {
-      a {
-        left:6em;
-        top: 9.5em;
-      }
-    }
-    .ad a {
-      left:31em;
-      top:10em;
-    }
-    #sideTitle {
-      display:none;
-    }
-    p {
-      display: none;
-    }
-    br {
-      display: none;
-    }
- }
- footer {
-   top:11em;
-   padding-top: 20px;
- p {
-   padding-top: 20px;
-   left:1em;
-   font-size: 31px;
- }
- li {
-   left:-2.5em;
-   cursor: pointer;
-   }
- p {
-   padding-top: 1px;
- }
- .footBar{
-   width:81.4%;
- p {
-   display:none;
- }
- #ironyard{
-   top:3em;
-   left:8.5em;
- }
- .nav {
-   top: -1.6em;
-   right:1.75em;
- }
- .navLink {
-   font-size: 12px;
- }
-}
-}
- }
