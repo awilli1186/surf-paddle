@@ -270,6 +270,7 @@ footer {
   float: left;
   width: 100%;
   height: 300px;
+  margin-top: 1.5em;
   position: relative;
   bottom: 92px;
   border-top: 1px solid #E1E7EA; }
